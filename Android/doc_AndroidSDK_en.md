@@ -150,17 +150,17 @@ The class for receiving real-time parse chip data needs to be implemented by the
 
 ### Method
 
-**void onBrainWavedata(String mac,BrainWavebrainWave);**
+**void onBrainWavedata(String mac,BrainWavebrainWave);**<br>
 Receive parsed brainwave data.
 - mac: mac address of Brainwave device
 - brainWave:brainwave data
 
-**void onGravity(String mac,Gravity gravity);**
+**void onGravity(String mac,Gravity gravity);**<br>
 Receive parsed gravity data.
 -  mac: mac address of Brainwave device
 -  gravity:gravity data
 
-**void onRawData(String mac,int raw);**
+**void onRawData(String mac,int raw);**<br>
 Receive raw EEG data.
 - mac: mac address of Brainwave device
 -  raw:raw EEG data
@@ -171,17 +171,17 @@ This class is the connection state monitoring interface between Bluetooth and br
 
 **Method**
 
-**oid onConnectStart(BlueConnectDeviceblueConnectDevice);**
+**oid onConnectStart(BlueConnectDeviceblueConnectDevice);**<br>
 trying to connect
-**void onConnectting(BlueConnectDeviceblueConnectDevice);**
+**void onConnectting(BlueConnectDeviceblueConnectDevice);**<br>
 connecting
-**void onConnectFailed(BlueConnectDeviceblueConnectDevice);**
+**void onConnectFailed(BlueConnectDeviceblueConnectDevice);**<br>
 disconnected
-**void onConectSuccess(BlueConnectDeviceblueConnectDevice);**
+**void onConectSuccess(BlueConnectDeviceblueConnectDevice);**<br>
 connected
-**void onConnectionLost(BlueConnectDeviceblueConnectDevice);**
+**void onConnectionLost(BlueConnectDeviceblueConnectDevice);**<br>
 Lost connection (disconnected from connected state)
-**void onError(Exception e);**
+**void onError(Exception e);**<br>
 connection error
 
 ## LinkManagerReference
@@ -189,28 +189,28 @@ This class handles the interaction between the Macrotellect’s hardware and Blu
 
 ### Method
 
-**public static LinkManagerinit(Context context)**
+**public static LinkManagerinit(Context context)**<br>
 Initialization (singleton)
-**public void setDebug(booleanisDebug)**
+**public void setDebug(booleanisDebug)**<br>
 whether to print log (no print setting by default)
-**public void setMaxConnectSize(int count)**
+**public void setMaxConnectSize(int count)**<br>
 Set the maximum number of connections(1 is settedby default)
-**public void setConnectType(ConnectTypeconnectType);**
-**set the type of connection**
+**public void setConnectType(ConnectTypeconnectType);**<br>
+set the type of connection
 
 -  **ConnectType. ONLYCLASSBLUE**  Only connect devices by classBluetooth, you need to manually pair them first.
 -  **ConnectType. ONLYBLEBLUE**  Only connect devices by BLE Bluetooth
 - **ConnectType. ALLDEVICE**  Allow both ways to connect devices
 
-**getConnectSize();**
-	receive the number of connected devices
-**public void setWhiteList(String whiteList)**
+**getConnectSize();**<br>
+receive the number of connected devices
+**public void setWhiteList(String whiteList)**<br>
 Set whitelist, only allow to connect whitelist. Please use' , 'to separate names of connected multiple devices.
-**public void setOnConnectListener(OnConnectListeneronConnectListener)**
+**public void setOnConnectListener(OnConnectListeneronConnectListener)**<br>
 Set the Bluetooth connection status callback
-**public void setEegPowerDataListener(EEGPowerDataListenereegPowerDataListener)** 
+**public void setEegPowerDataListener(EEGPowerDataListenereegPowerDataListener)** <br>
 Set the brainwave data receiving callback
-**public void startScan()**
+**public void startScan()**<br>
 start scan and connect
-**public void disconnectDevice(String mac)**
+**public void disconnectDevice(String mac)**<br>
 disconnect to Bluetooth
