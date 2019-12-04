@@ -8,6 +8,7 @@ This guide will teach you how to use MacrotellectLink SDK to write Android appli
 Receive brainwave data.
 
 **Supported Device：**
+
 - Bluetooth4.0 BLE
 	- BrainLink_Pro
 - Bluetooth3.0
@@ -157,11 +158,13 @@ Receive parsed brainwave data.
 
 **void onGravity(String mac,Gravity gravity);**<br>
 Receive parsed gravity data.
+
 -  mac: mac address of Brainwave device
 -  gravity:gravity data
 
 **void onRawData(String mac,int raw);**<br>
 Receive raw EEG data.
+
 - mac: mac address of Brainwave device
 -  raw:raw EEG data
 
@@ -172,17 +175,17 @@ This class is the connection state monitoring interface between Bluetooth and br
 **Method**
 
 **oid onConnectStart(BlueConnectDeviceblueConnectDevice);**<br>
-trying to connect
+trying to connect<br>
 **void onConnectting(BlueConnectDeviceblueConnectDevice);**<br>
-connecting
+connecting<br>
 **void onConnectFailed(BlueConnectDeviceblueConnectDevice);**<br>
-disconnected
+disconnected<br>
 **void onConectSuccess(BlueConnectDeviceblueConnectDevice);**<br>
-connected
+connected<br>
 **void onConnectionLost(BlueConnectDeviceblueConnectDevice);**<br>
 Lost connection (disconnected from connected state)
 **void onError(Exception e);**<br>
-connection error
+connection error<br>
 
 ## LinkManagerReference
 This class handles the interaction between the Macrotellect’s hardware and Bluetooth devices.
@@ -190,27 +193,27 @@ This class handles the interaction between the Macrotellect’s hardware and Blu
 ### Method
 
 **public static LinkManagerinit(Context context)**<br>
-Initialization (singleton)
+Initialization (singleton)<br>
 **public void setDebug(booleanisDebug)**<br>
-whether to print log (no print setting by default)
+whether to print log (no print setting by default)<br>
 **public void setMaxConnectSize(int count)**<br>
-Set the maximum number of connections(1 is settedby default)
+Set the maximum number of connections(1 is settedby default)<br>
 **public void setConnectType(ConnectTypeconnectType);**<br>
-set the type of connection
+set the type of connection<br>
 
 -  **ConnectType. ONLYCLASSBLUE**  Only connect devices by classBluetooth, you need to manually pair them first.
 -  **ConnectType. ONLYBLEBLUE**  Only connect devices by BLE Bluetooth
 - **ConnectType. ALLDEVICE**  Allow both ways to connect devices
 
 **getConnectSize();**<br>
-receive the number of connected devices
+receive the number of connected devices<br>
 **public void setWhiteList(String whiteList)**<br>
-Set whitelist, only allow to connect whitelist. Please use' , 'to separate names of connected multiple devices.
+Set whitelist, only allow to connect whitelist. Please use' , 'to separate names of connected multiple devices.<br>
 **public void setOnConnectListener(OnConnectListeneronConnectListener)**<br>
-Set the Bluetooth connection status callback
+Set the Bluetooth connection status callback<br>
 **public void setEegPowerDataListener(EEGPowerDataListenereegPowerDataListener)** <br>
-Set the brainwave data receiving callback
+Set the brainwave data receiving callback<br>
 **public void startScan()**<br>
-start scan and connect
+start scan and connect<br>
 **public void disconnectDevice(String mac)**<br>
-disconnect to Bluetooth
+disconnect to Bluetooth<br>

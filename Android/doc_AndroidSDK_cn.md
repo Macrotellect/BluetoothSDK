@@ -170,16 +170,19 @@
 
 **void onBrainWavedata(String mac,BrainWave brainWave);**<br>
 接收解析的脑波信息。
+
 - mac: 脑波设备的mac地址
 - brainWave: 脑波信息
 
 **void onGravity(String mac,Gravity gravity);**<br>
 接收解析的重力信息
+
 - mac: 脑波设备的mac地址
 - gravity: 重力信息
 
 **void onRawData(String mac,int raw);**<br>
 接收原始raw值
+
 -  mac: 脑波设备的mac地址
 -  raw: 原始raw值
 
@@ -190,17 +193,17 @@
 ### Method
 
 **oid onConnectStart(BlueConnectDevice blueConnectDevice);**<br>
-开始尝试连接
+开始尝试连接<br>
 **void onConnectting(BlueConnectDevice blueConnectDevice);**<br>
-连接中
+连接中<br>
 **void onConnectFailed(BlueConnectDevice blueConnectDevice);**<br>
-连接失败
+连接失败<br>
 **void onConectSuccess(BlueConnectDevice blueConnectDevice);**<br>
-连接成功
+连接成功<br>
 **void onConnectionLost(BlueConnectDevice blueConnectDevice);**<br>
-连接丢失（从已连接状态断开连接）
+连接丢失（从已连接状态断开连接）<br>
 **void onError(Exception e);**<br>
-连接错误
+连接错误<br>
 
 ## LinkManager参考
 
@@ -209,26 +212,27 @@
 ### Method
 
 **public static LinkManager init(Context context)**<br>
-初始化(单例)
+初始化(单例)<br>
 **public void setDebug(boolean isDebug)**<br>
-是否打印log  默认不打印
+是否打印log  默认不打印<br>
 **public void setMaxConnectSize(int count)**<br>
-设置最大连接数量,默认一个
+设置最大连接数量,默认一个<br>
 **public void setConnectType(ConnectType connectType);**<br>
-设置连接类型
+设置连接类型<br>
+
 - **ConnectType. ONLYCLASSBLUE** 只通过3.0蓝牙连接设备，需要先手动配对
 - **ConnectType. ONLYBLEBLUE**只通过低功耗蓝牙连接设备，无需要先手动配对
 - **ConnectType. ALLDEVICE** 允许两种方式连接设备
 
 **getConnectSize();**<br>
-获取已连接的数量
+获取已连接的数量<br>
 **public void setWhiteList(String whiteList)**<br>
-设置白名单，只允许连接白名单内的设备名，多个设备之间用 ' , '分隔
+设置白名单，只允许连接白名单内的设备名，多个设备之间用 ' , '分隔<br>
 **public void setOnConnectListener(OnConnectListener onConnectListener)**<br>
-设置蓝牙连接状态回调
+设置蓝牙连接状态回调<br>
 **public void setEegPowerDataListener(EEGPowerDataListener eegPowerDataListener)** <br>
-设置脑波数据接收回调
+设置脑波数据接收回调<br>
 **public void startScan()**<br>
-开始扫描连接
+开始扫描连接<br>
 **public void disconnectDevice(String mac)**<br>
-断开蓝牙连接
+断开蓝牙连接<br>
