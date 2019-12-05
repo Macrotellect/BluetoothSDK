@@ -12,7 +12,7 @@
 
 ### IOS
 
-- [IOS SDK](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.0/MacrotellectLink_V1.0.jar)
+- [IOS SDK](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.0/libHzlBlueTooth_V1.0.SDK.zip)
 - [IOS使用demo](./IOS/IOS_Blue3OrBlue4Demo1.0/)
 - [中文使用文档](./IOS/HZLBlueTooth_V1.0 SDKForiOS_中文.pdf)
 - [英文使用文档](./IOS/hzlbluetooth_v1.0 sdkforios_en.pdf)
