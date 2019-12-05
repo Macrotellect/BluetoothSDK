@@ -57,7 +57,7 @@
 3. 调用sdk 获取数据 
 ```java
   //先判断是否有访问位置权限
-	if(( checkSelfPermission( Manifest.permission.ACCESS_COARSE_LOCATION)!=PackageM              anager.PERMISSION_GRANTED)||(checkSelfPermission(Manifest.permission.ACCESS_FI              NE_LOCATION) != PackageManager.PERMISSION_GRANTED)){
+	if(( checkSelfPermission( Manifest.permission.ACCESS_COARSE_LOCATION)!=PackageManager.PERMISSION_GRANTED)||(checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED)){
 
  //申请权限
 	requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION,Manifest.permission.ACCESS_FINE_LOCATION},LOCATION_PERMISSION_CODE);
