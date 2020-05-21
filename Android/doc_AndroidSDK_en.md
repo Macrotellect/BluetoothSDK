@@ -88,7 +88,7 @@ Receive brainwave data.
             }
 
              @Override
-            public void onConectSuccess(BlueConnectDeviceblueConnectDevice) {
+            public void onConnectSuccess(BlueConnectDeviceblueConnectDevice) {
                 String mac = blueConnectDevice.getAddress();
                 String connectType = blueConnectDevice.isBleConnect ? " 4.0 " : " 3.0 ";
 Log.e(TAG, "connected device name:" + blueConnectDevice.getName() + " mac: " +                                   mac);
@@ -180,7 +180,7 @@ trying to connect<br>
 connecting<br>
 **void onConnectFailed(BlueConnectDeviceblueConnectDevice);**<br>
 disconnected<br>
-**void onConectSuccess(BlueConnectDeviceblueConnectDevice);**<br>
+**void onConnectSuccess(BlueConnectDeviceblueConnectDevice);**<br>
 connected<br>
 **void onConnectionLost(BlueConnectDeviceblueConnectDevice);**<br>
 Lost connection (disconnected from connected state)

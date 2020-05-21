@@ -4,7 +4,7 @@
 
 ### Android
 
-- [Android SDK](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.0/MacrotellectLink_V1.0.jar)
+- [Android SDK](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.1.0/MacrotellectLink_V1.1.jar)
 - [Android使用demo](./Android/MacrotellectLinkDemo/)
 - [中文使用文档](./Android/doc_AndroidSDK_cn.md)
 - [英文使用文档](./Android/doc_AndroidSDK_en.md)

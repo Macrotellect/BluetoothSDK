@@ -36,7 +36,7 @@
 
        dependencies{
               ...
-             implementation files('libs/ MacrotellectLink_V1.0.jar')
+             implementation files('libs/ MacrotellectLink_V1.1.jar')
        }
        
  ```
@@ -103,7 +103,7 @@
             }
             @Override
 
-            public void onConectSuccess(BlueConnectDevice blueConnectDevice) {
+            public void onConnectSuccess(BlueConnectDevice blueConnectDevice) {
                 String mac = blueConnectDevice.getAddress();
                 String connectType = blueConnectDevice.isBleConnect ? " 4.0 " : " 3.0 ";
 
@@ -198,7 +198,7 @@
 连接中<br>
 **void onConnectFailed(BlueConnectDevice blueConnectDevice);**<br>
 连接失败<br>
-**void onConectSuccess(BlueConnectDevice blueConnectDevice);**<br>
+**void onConnectSuccess(BlueConnectDevice blueConnectDevice);**<br>
 连接成功<br>
 **void onConnectionLost(BlueConnectDevice blueConnectDevice);**<br>
 连接丢失（从已连接状态断开连接）<br>
