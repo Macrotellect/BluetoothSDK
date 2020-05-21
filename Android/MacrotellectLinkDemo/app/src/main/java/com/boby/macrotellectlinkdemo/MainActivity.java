@@ -82,11 +82,12 @@ private LinkManager bluemanage;
             }
 
             @Override
-            public void onConectSuccess(BlueConnectDevice blueConnectDevice) {
+            public void onConnectSuccess(BlueConnectDevice blueConnectDevice) {
                 String mac = blueConnectDevice.getAddress();
                 String connectType = blueConnectDevice.isBleConnect ? " 4.0 " : " 3.0 ";
                 Log.e(TAG, "连接成功 name:" + blueConnectDevice.getName() + " mac: " + mac);
             }
+
 
             @Override
             public void onError(Exception e) {
@@ -122,5 +123,13 @@ private LinkManager bluemanage;
 //            bluemanage.close();
         }
 
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(bluemanage!=null){
+            bluemanage.onDestroy();
+        }
     }
 }
