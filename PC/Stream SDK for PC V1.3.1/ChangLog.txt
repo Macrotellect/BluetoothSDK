@@ -1,0 +1,58 @@
+------------------------------
+Version 1.3.1 Date: 2016/11/10
+------------------------------
+- dll version: 5
+
+1. redesign BMD200 data parser and output data types
+ 
+
+------------------------------
+Version 1.3.0 Date: 2016/11/01
+------------------------------
+- dll version: 4
+1.Add BMD200 support
+  Add data type from BMD200_DATA_POOR_QUALITY to BMD200_DATA_RAW_8C_8
+  Add function BMD200_set8PacketMode and BMD200_set1PacketMode
+
+2.Remove data type TG_DATA_BATTERY
+
+------------------------------
+Version 1.2.0 Date: 2016/07/06
+------------------------------
+- dll version: 3
+1.Add MindWave Mobile 1.5 support
+  Add data type MWM15_DATA_FILTER_TYPE 
+  Add constant MWM15_FILTER_TYPE_50HZ and MWM15_FILTER_TYPE_60HZ
+  Add function MWM15_setFilterType and MWM15_getFilterType
+
+2.Remove data type TG_DATA_BATTERY
+
+------------------------------
+Version 1.1.0 Date: 2015/12/4
+------------------------------
+- dll version: 2
+1.Add c# wrapper
+
+
+------------------------------
+Version 1.0.1 Date: 2015/9/18
+------------------------------
+- dll version: 2
+[Major features]
+- fixed bugs
+#1680   [PC] There are some typos in the document.
+#1681   [PC] It is better to add some sample code for some methods.
+#1682   [PC] There is no description of "connected to an input file stream" for TG_Connect.
+#1683   [PC] The TG_Connect can't read all of the raw EEG data of one file.
+#1684   [PC] Set the insertTimestamp of TG_WriteDataLogvalue to 0, but can't disable insertion of newline.
+#1686   [PC] When use the Toshiba Bluetooth Driver, the methods TG_Disconnect or TG_FreeConnection can't disconnect the headset.
+#1687   [PC] After connected,if call TG_Disconnect and TG_FreeConnection continuously,the code will return an exception error.
+#1688   [PC] Some exception state can't be covered.
+------------------------------
+Version 1.0.0 Date: 2015/8/20
+------------------------------
+
+[Major features]
+- dll version: 1
+- This is the first version
+

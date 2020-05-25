@@ -1,0 +1,5 @@
+d:\documents\visual studio 2012\Projects\thinkgear_testapp_csharp_64\thinkgear_testapp_csharp_64\bin\Debug\thinkgear_testapp_csharp_64.exe.config
+d:\documents\visual studio 2012\Projects\thinkgear_testapp_csharp_64\thinkgear_testapp_csharp_64\bin\Debug\thinkgear_testapp_csharp_64.exe
+d:\documents\visual studio 2012\Projects\thinkgear_testapp_csharp_64\thinkgear_testapp_csharp_64\bin\Debug\thinkgear_testapp_csharp_64.pdb
+d:\documents\visual studio 2012\Projects\thinkgear_testapp_csharp_64\thinkgear_testapp_csharp_64\obj\Debug\thinkgear_testapp_csharp_64.exe
+d:\documents\visual studio 2012\Projects\thinkgear_testapp_csharp_64\thinkgear_testapp_csharp_64\obj\Debug\thinkgear_testapp_csharp_64.pdb

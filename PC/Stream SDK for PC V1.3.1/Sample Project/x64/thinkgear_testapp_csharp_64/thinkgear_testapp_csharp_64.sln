@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thinkgear_testapp_csharp_64", "thinkgear_testapp_csharp_64\thinkgear_testapp_csharp_64.csproj", "{19886A84-6DE1-43E2-93DE-65DEDD0C3821}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19886A84-6DE1-43E2-93DE-65DEDD0C3821}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{19886A84-6DE1-43E2-93DE-65DEDD0C3821}.Debug|Any CPU.Build.0 = Debug|x64
+		{19886A84-6DE1-43E2-93DE-65DEDD0C3821}.Debug|x64.ActiveCfg = Debug|x64
+		{19886A84-6DE1-43E2-93DE-65DEDD0C3821}.Debug|x64.Build.0 = Debug|x64
+		{19886A84-6DE1-43E2-93DE-65DEDD0C3821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19886A84-6DE1-43E2-93DE-65DEDD0C3821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19886A84-6DE1-43E2-93DE-65DEDD0C3821}.Release|x64.ActiveCfg = Release|x64
+		{19886A84-6DE1-43E2-93DE-65DEDD0C3821}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+d:\documents\visual studio 2012\Projects\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.exe.config
+d:\documents\visual studio 2012\Projects\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.exe
+d:\documents\visual studio 2012\Projects\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.pdb
+d:\documents\visual studio 2012\Projects\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.exe
+d:\documents\visual studio 2012\Projects\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.pdb
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.exe.config
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.exe
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.pdb
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.exe
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.pdb
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.csprojResolveAssemblyReference.cache
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0 - 副本\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.exe.config
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0 - 副本\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.exe
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0 - 副本\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.pdb
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0 - 副本\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.exe
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0 - 副本\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.pdb
+E:\MDT\20150709\comm release\Stream SDK for PC V1.2.0 - 副本\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.csprojResolveAssemblyReference.cache
+E:\MDT\20150709\comm release\Stream SDK for PC V1.3.1\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.exe.config
+E:\MDT\20150709\comm release\Stream SDK for PC V1.3.1\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.exe
+E:\MDT\20150709\comm release\Stream SDK for PC V1.3.1\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.pdb
+E:\MDT\20150709\comm release\Stream SDK for PC V1.3.1\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.exe
+E:\MDT\20150709\comm release\Stream SDK for PC V1.3.1\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\bin\x86\Debug\thinkgear_testapp_csharp.pdb
+E:\MDT\20150709\comm release\Stream SDK for PC V1.3.1\Sample Project\win32\thinkgear_testapp_csharp\thinkgear_testapp_csharp\obj\x86\Debug\thinkgear_testapp_csharp.csprojResolveAssemblyReference.cache
