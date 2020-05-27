@@ -1,5 +1,4 @@
-# 宏智力蓝牙连接SDK
-SDK for [BrainLink](http://o.macrotellect.com/)
+# SDK for [BrainLink](http://o.macrotellect.com/)
 用于与[宏智力](http://www.macrotellect.com/)脑波检测硬件设备通信的sdk。
 
 ### Android
