@@ -16,3 +16,12 @@
 - [IOS使用demo](./IOS/IOS_Blue3OrBlue4Demo1.0/)
 - [中文使用文档](./IOS/)
 - [英文使用文档](./IOS/)
+
+### MAC
+- [](https://github.com/Macrotellect/BluetoothSDK/tree/master/MAC/BrainLink)
+
+### PC
+- [](https://github.com/Macrotellect/BluetoothSDK/tree/master/PC/Stream%20SDK%20for%20PC%20V1.3.1)
+
+### BluetoothDongle
+- [](https://github.com/Macrotellect/BluetoothSDK/tree/master/BluetoothDongle)
