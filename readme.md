@@ -18,10 +18,10 @@
 - [英文使用文档](./IOS/)
 
 ### MAC
-- [SDK](https://github.com/Macrotellect/BluetoothSDK/tree/master/MAC/BrainLink)
+- [SDK和Demo](https://github.com/Macrotellect/BluetoothSDK/tree/master/MAC/BrainLink)
 
 ### PC
-- [SDK](https://github.com/Macrotellect/BluetoothSDK/tree/master/PC/Stream%20SDK%20for%20PC%20V1.3.1)
+- [SDK和Demo](https://github.com/Macrotellect/BluetoothSDK/tree/master/PC/Stream%20SDK%20for%20PC%20V1.3.1)
 
 ### BluetoothDongle
-- [SDK](https://github.com/Macrotellect/BluetoothSDK/tree/master/BluetoothDongle)
+- [BluetoothDongle](https://github.com/Macrotellect/BluetoothSDK/tree/master/BluetoothDongle)
