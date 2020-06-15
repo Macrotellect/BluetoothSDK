@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:id="@+id/labe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="mac:"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/colorTextPrimaryDark"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@id/labe1"
+        app:layout_constraintLeft_toRightOf="@id/labe1"
+        tools:text="xxxxxxx"
+        />
+
+    <TextView
+        android:id="@+id/connectType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginStart="10dp"
+        tools:text="3.0"
+        app:layout_constraintBottom_toBottomOf="@id/labe1"
+        app:layout_constraintLeft_toRightOf="@id/mac"
+        />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="mindLink"
+        app:layout_constraintBottom_toBottomOf="@id/labe1"
+        app:layout_constraintLeft_toRightOf="@id/connectType"
+        android:textColor="@color/colorTextPrimaryDark"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+    <TextView
+        android:id="@+id/dataLabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="实时数据："
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/labe1"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        android:textColor="@color/colorTextPrimaryDark"/>
+    <TextView
+        android:id="@+id/attLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dataLabel1"
+        android:layout_marginStart="16dp"
+        android:text="att ："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/att"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/attLabel"
+        app:layout_constraintBottom_toBottomOf="@id/attLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/medLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/attLabel"
+        app:layout_constraintBottom_toBottomOf="@id/att"
+        android:layout_marginStart="60dp"
+        android:text="med："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/medLabel"
+        app:layout_constraintBottom_toBottomOf="@id/medLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/signLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/medLabel"
+        app:layout_constraintBottom_toBottomOf="@id/medLabel"
+        android:layout_marginStart="60dp"
+        android:text="信号："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/signLabel"
+        app:layout_constraintBottom_toBottomOf="@id/signLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:id="@+id/thetaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/attLabel"
+        app:layout_constraintTop_toBottomOf="@id/attLabel"
+        android:text=" θ   ："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/theta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/thetaLabel"
+        app:layout_constraintBottom_toBottomOf="@id/thetaLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/deltaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/medLabel"
+        app:layout_constraintTop_toBottomOf="@id/medLabel"
+        android:text="   δ   ："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/delta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/deltaLabel"
+        app:layout_constraintBottom_toBottomOf="@id/deltaLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/lowAlphaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        app:layout_constraintLeft_toRightOf="@id/deltaLabel"
+        app:layout_constraintBottom_toBottomOf="@id/deltaLabel"
+        android:text="低 α："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/lowAlpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/lowAlphaLabel"
+        app:layout_constraintBottom_toBottomOf="@id/lowAlphaLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/highAlphaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        app:layout_constraintLeft_toRightOf="@id/lowAlphaLabel"
+        app:layout_constraintBottom_toBottomOf="@id/lowAlphaLabel"
+        android:text="高 α："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/highAlpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/highAlphaLabel"
+        app:layout_constraintBottom_toBottomOf="@id/highAlphaLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/lowBeteLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/thetaLabel"
+        app:layout_constraintTop_toBottomOf="@id/thetaLabel"
+        android:text="低β："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/lowBete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/lowBeteLabel"
+        app:layout_constraintBottom_toBottomOf="@id/lowBeteLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+
+
+    <TextView
+        android:id="@+id/higBeteLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/deltaLabel"
+        app:layout_constraintTop_toBottomOf="@id/deltaLabel"
+        android:text="高 β："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/higBete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/higBeteLabel"
+        app:layout_constraintBottom_toBottomOf="@id/higBeteLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:id="@+id/lowGammaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/lowAlphaLabel"
+        app:layout_constraintTop_toBottomOf="@id/lowAlphaLabel"
+        android:text="低 γ："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/lowGamma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/lowGammaLabel"
+        app:layout_constraintBottom_toBottomOf="@id/lowGammaLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/midGammaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/highAlphaLabel"
+        app:layout_constraintTop_toBottomOf="@id/highAlphaLabel"
+        android:text="高 γ："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/midGamma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/midGammaLabel"
+        app:layout_constraintBottom_toBottomOf="@id/midGammaLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:id="@+id/eleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@id/lowBeteLabel"
+        app:layout_constraintTop_toBottomOf="@id/lowBeteLabel"
+        android:text="电量："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/ele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/eleLabel"
+        app:layout_constraintBottom_toBottomOf="@id/eleLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/preLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/eleLabel"
+        app:layout_constraintBottom_toBottomOf="@id/ele"
+        android:layout_marginStart="60dp"
+        android:text="喜好："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/preLabel"
+        app:layout_constraintBottom_toBottomOf="@id/preLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:id="@+id/hardVisionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/preLabel"
+        app:layout_constraintBottom_toBottomOf="@id/ele"
+        android:layout_marginStart="60dp"
+        android:text="版本："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/hardVision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/hardVisionLabel"
+        app:layout_constraintBottom_toBottomOf="@id/hardVisionLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/grindLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/highAlphaLabel"
+        app:layout_constraintBottom_toBottomOf="@id/ele"
+
+        android:text="咬牙："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/grind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/grindLabel"
+        app:layout_constraintBottom_toBottomOf="@id/grindLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+
+
+    <TextView
+        android:id="@+id/gravityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/sign"
+        app:layout_constraintBottom_toBottomOf="@id/medLabel"
+        android:layout_marginStart="20dp"
+        android:text="角度："
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/gravityLabel"
+        app:layout_constraintBottom_toBottomOf="@id/gravityLabel"
+        tools:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:layout_constraintTop_toBottomOf="@id/ele"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

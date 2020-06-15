@@ -1,19 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="start "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="start"/>
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="连接类型："
+            android:textColor="@color/colorTextPrimaryDark" />
+        <RadioGroup
+            android:id="@+id/connectTypeGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部"
+                android:textSize="12sp"
+                android:textColor="@color/colorTextPrimary"
+                android:checked="true"
+                />
+            <RadioButton
+                android:id="@+id/only3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="仅3.0"
+                android:textSize="12sp"
+                android:textColor="@color/colorTextPrimary"/>
+            <RadioButton
+                android:id="@+id/only4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="仅4.0"
+                android:textSize="12sp"
+                android:textColor="@color/colorTextPrimary"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="最大连接数："
+            android:textColor="@color/colorTextPrimaryDark"/>
+        <!--最简单的加载下拉数组：entries，内容定义在string-array中-->
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:entries="@array/connect_size"
+            android:spinnerMode="dropdown"
+            android:popupBackground="#B9CFC5" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="白名单："
+            android:textColor="@color/colorTextPrimaryDark"/>
+        <EditText
+            android:id="@+id/ed_whiteList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入允许连接的蓝牙名，多设备用逗号分割"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorTextPrimaryDark"
+            android:text="BrainLink,BrainLink_Lite,BrainLink_Pro,Brainlink_Pro"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="att" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="med"
+            android:layout_marginLeft="10dp"/>
+        <Switch
+            android:id="@+id/mSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动"
+            android:layout_marginStart="20dp"
+            android:padding="10dp"
+            android:switchPadding="10dp"/>
+        <TextView
+            android:id="@+id/tv_connectSize"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="0"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="连接"
+            android:textColor="@color/colorTextPrimaryDark"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
