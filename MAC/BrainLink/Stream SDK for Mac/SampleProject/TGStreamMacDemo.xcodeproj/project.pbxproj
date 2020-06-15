@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09C80481B79A3910090EC2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C80471B79A3910090EC2A /* AppDelegate.m */; };
+		D09C804A1B79A3910090EC2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C80491B79A3910090EC2A /* main.m */; };
+		D09C804C1B79A3910090EC2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09C804B1B79A3910090EC2A /* Images.xcassets */; };
+		D09C804F1B79A3910090EC2A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09C804D1B79A3910090EC2A /* MainMenu.xib */; };
+		D09C805B1B79A3910090EC2A /* TGStreamMacDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C805A1B79A3910090EC2A /* TGStreamMacDemoTests.m */; };
+		D09C80711B79B9590090EC2A /* OneCheckSumFail.txt in Resources */ = {isa = PBXBuildFile; fileRef = D09C806F1B79B9590090EC2A /* OneCheckSumFail.txt */; };
+		D09C80721B79B9590090EC2A /* sample_data.txt in Resources */ = {isa = PBXBuildFile; fileRef = D09C80701B79B9590090EC2A /* sample_data.txt */; };
+		E380D06D1D24B2DA0042E89F /* TGStreamMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E380D06C1D24B2DA0042E89F /* TGStreamMac.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09C80551B79A3910090EC2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09C80391B79A3910090EC2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09C80401B79A3910090EC2A;
+			remoteInfo = TGStreamMacDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D09C80411B79A3910090EC2A /* TGStreamMacDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGStreamMacDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09C80451B79A3910090EC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09C80461B79A3910090EC2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D09C80471B79A3910090EC2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D09C80491B79A3910090EC2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D09C804B1B79A3910090EC2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D09C804E1B79A3910090EC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D09C80541B79A3910090EC2A /* TGStreamMacDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGStreamMacDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09C80591B79A3910090EC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09C805A1B79A3910090EC2A /* TGStreamMacDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGStreamMacDemoTests.m; sourceTree = "<group>"; };
+		D09C806F1B79B9590090EC2A /* OneCheckSumFail.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OneCheckSumFail.txt; path = sampleData/OneCheckSumFail.txt; sourceTree = "<group>"; };
+		D09C80701B79B9590090EC2A /* sample_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sample_data.txt; path = sampleData/sample_data.txt; sourceTree = "<group>"; };
+		E380D06C1D24B2DA0042E89F /* TGStreamMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TGStreamMac.framework; path = TGStreamMacDemo/framework/TGStreamMac.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09C803E1B79A3910090EC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E380D06D1D24B2DA0042E89F /* TGStreamMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09C80511B79A3910090EC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09C80381B79A3910090EC2A = {
+			isa = PBXGroup;
+			children = (
+				E380D06C1D24B2DA0042E89F /* TGStreamMac.framework */,
+				D09C80431B79A3910090EC2A /* TGStreamMacDemo */,
+				D09C80571B79A3910090EC2A /* TGStreamMacDemoTests */,
+				D09C80421B79A3910090EC2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09C80421B79A3910090EC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09C80411B79A3910090EC2A /* TGStreamMacDemo.app */,
+				D09C80541B79A3910090EC2A /* TGStreamMacDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09C80431B79A3910090EC2A /* TGStreamMacDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D09C806E1B79B9420090EC2A /* rawData */,
+				D09C80461B79A3910090EC2A /* AppDelegate.h */,
+				D09C80471B79A3910090EC2A /* AppDelegate.m */,
+				D09C804B1B79A3910090EC2A /* Images.xcassets */,
+				D09C804D1B79A3910090EC2A /* MainMenu.xib */,
+				D09C80441B79A3910090EC2A /* Supporting Files */,
+			);
+			path = TGStreamMacDemo;
+			sourceTree = "<group>";
+		};
+		D09C80441B79A3910090EC2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09C80451B79A3910090EC2A /* Info.plist */,
+				D09C80491B79A3910090EC2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09C80571B79A3910090EC2A /* TGStreamMacDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09C805A1B79A3910090EC2A /* TGStreamMacDemoTests.m */,
+				D09C80581B79A3910090EC2A /* Supporting Files */,
+			);
+			path = TGStreamMacDemoTests;
+			sourceTree = "<group>";
+		};
+		D09C80581B79A3910090EC2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09C80591B79A3910090EC2A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09C806E1B79B9420090EC2A /* rawData */ = {
+			isa = PBXGroup;
+			children = (
+				D09C806F1B79B9590090EC2A /* OneCheckSumFail.txt */,
+				D09C80701B79B9590090EC2A /* sample_data.txt */,
+			);
+			name = rawData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09C80401B79A3910090EC2A /* TGStreamMacDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09C805E1B79A3910090EC2A /* Build configuration list for PBXNativeTarget "TGStreamMacDemo" */;
+			buildPhases = (
+				D09C803D1B79A3910090EC2A /* Sources */,
+				D09C803E1B79A3910090EC2A /* Frameworks */,
+				D09C803F1B79A3910090EC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGStreamMacDemo;
+			productName = TGStreamMacDemo;
+			productReference = D09C80411B79A3910090EC2A /* TGStreamMacDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09C80531B79A3910090EC2A /* TGStreamMacDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09C80611B79A3910090EC2A /* Build configuration list for PBXNativeTarget "TGStreamMacDemoTests" */;
+			buildPhases = (
+				D09C80501B79A3910090EC2A /* Sources */,
+				D09C80511B79A3910090EC2A /* Frameworks */,
+				D09C80521B79A3910090EC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09C80561B79A3910090EC2A /* PBXTargetDependency */,
+			);
+			name = TGStreamMacDemoTests;
+			productName = TGStreamMacDemoTests;
+			productReference = D09C80541B79A3910090EC2A /* TGStreamMacDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09C80391B79A3910090EC2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = NeuroSky;
+				TargetAttributes = {
+					D09C80401B79A3910090EC2A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D09C80531B79A3910090EC2A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D09C80401B79A3910090EC2A;
+					};
+				};
+			};
+			buildConfigurationList = D09C803C1B79A3910090EC2A /* Build configuration list for PBXProject "TGStreamMacDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09C80381B79A3910090EC2A;
+			productRefGroup = D09C80421B79A3910090EC2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09C80401B79A3910090EC2A /* TGStreamMacDemo */,
+				D09C80531B79A3910090EC2A /* TGStreamMacDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09C803F1B79A3910090EC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09C80721B79B9590090EC2A /* sample_data.txt in Resources */,
+				D09C804C1B79A3910090EC2A /* Images.xcassets in Resources */,
+				D09C80711B79B9590090EC2A /* OneCheckSumFail.txt in Resources */,
+				D09C804F1B79A3910090EC2A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09C80521B79A3910090EC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09C803D1B79A3910090EC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09C804A1B79A3910090EC2A /* main.m in Sources */,
+				D09C80481B79A3910090EC2A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09C80501B79A3910090EC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09C805B1B79A3910090EC2A /* TGStreamMacDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09C80561B79A3910090EC2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09C80401B79A3910090EC2A /* TGStreamMacDemo */;
+			targetProxy = D09C80551B79A3910090EC2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09C804D1B79A3910090EC2A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09C804E1B79A3910090EC2A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D09C805C1B79A3910090EC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D09C805D1B79A3910090EC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D09C805F1B79A3910090EC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TGStreamMacDemo/framework",
+				);
+				INFOPLIST_FILE = TGStreamMacDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 i386";
+			};
+			name = Debug;
+		};
+		D09C80601B79A3910090EC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TGStreamMacDemo/framework",
+				);
+				INFOPLIST_FILE = TGStreamMacDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 i386";
+			};
+			name = Release;
+		};
+		D09C80621B79A3910090EC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TGStreamMacDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGStreamMacDemo.app/Contents/MacOS/TGStreamMacDemo";
+			};
+			name = Debug;
+		};
+		D09C80631B79A3910090EC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TGStreamMacDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGStreamMacDemo.app/Contents/MacOS/TGStreamMacDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09C803C1B79A3910090EC2A /* Build configuration list for PBXProject "TGStreamMacDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09C805C1B79A3910090EC2A /* Debug */,
+				D09C805D1B79A3910090EC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09C805E1B79A3910090EC2A /* Build configuration list for PBXNativeTarget "TGStreamMacDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09C805F1B79A3910090EC2A /* Debug */,
+				D09C80601B79A3910090EC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09C80611B79A3910090EC2A /* Build configuration list for PBXNativeTarget "TGStreamMacDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09C80621B79A3910090EC2A /* Debug */,
+				D09C80631B79A3910090EC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D09C80391B79A3910090EC2A /* Project object */;
+}
