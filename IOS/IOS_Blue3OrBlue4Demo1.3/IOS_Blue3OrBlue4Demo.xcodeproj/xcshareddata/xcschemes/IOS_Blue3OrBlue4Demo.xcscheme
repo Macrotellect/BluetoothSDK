@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3C4D600322FC16D10085D08C"
-               BuildableName = "SDK1.1 Dev Demo.app"
+               BuildableName = "SDK1.3 Dev Demo.app"
                BlueprintName = "IOS_Blue3OrBlue4Demo"
                ReferencedContainer = "container:IOS_Blue3OrBlue4Demo.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C4D600322FC16D10085D08C"
-            BuildableName = "SDK1.1 Dev Demo.app"
+            BuildableName = "SDK1.3 Dev Demo.app"
             BlueprintName = "IOS_Blue3OrBlue4Demo"
             ReferencedContainer = "container:IOS_Blue3OrBlue4Demo.xcodeproj">
          </BuildableReference>
@@ -74,7 +74,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C4D600322FC16D10085D08C"
-            BuildableName = "SDK1.1 Dev Demo.app"
+            BuildableName = "SDK1.3 Dev Demo.app"
             BlueprintName = "IOS_Blue3OrBlue4Demo"
             ReferencedContainer = "container:IOS_Blue3OrBlue4Demo.xcodeproj">
          </BuildableReference>
@@ -91,7 +91,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C4D600322FC16D10085D08C"
-            BuildableName = "SDK1.1 Dev Demo.app"
+            BuildableName = "SDK1.3 Dev Demo.app"
             BlueprintName = "IOS_Blue3OrBlue4Demo"
             ReferencedContainer = "container:IOS_Blue3OrBlue4Demo.xcodeproj">
          </BuildableReference>

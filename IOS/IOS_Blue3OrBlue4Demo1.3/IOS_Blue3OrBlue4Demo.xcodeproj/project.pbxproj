@@ -25,7 +25,7 @@
 		3C8977252396329E00EF2600 /* FactoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8977222396329E00EF2600 /* FactoryViewController.xib */; };
 		3C8977272396537E00EF2600 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8977262396537E00EF2600 /* ExternalAccessory.framework */; };
 		3C8977292396538400EF2600 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8977282396538400EF2600 /* CoreBluetooth.framework */; };
-		3C9DC4BA244EC2DA00B15F4C /* libHzlBlueTooth_V1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9DC4B7244EC2DA00B15F4C /* libHzlBlueTooth_V1.2.a */; };
+		3CC35ACB24B6B3C300466404 /* libHzlBlueTooth_V1.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC35AC824B6B3C300466404 /* libHzlBlueTooth_V1.3.a */; };
 		7D88252B7E97FDD32D1175B5 /* Pods_IOS_Blue3OrBlue4DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD7423047F87A6F8F518D2F /* Pods_IOS_Blue3OrBlue4DemoTests.framework */; };
 		EE083B36C3CB8665DCA5319F /* Pods_IOS_Blue3OrBlue4Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DCF5416125B80FC67D5767 /* Pods_IOS_Blue3OrBlue4Demo.framework */; };
 /* End PBXBuildFile section */
@@ -50,7 +50,7 @@
 /* Begin PBXFileReference section */
 		2750688845D03C9B753B2305 /* Pods-IOS_Blue3OrBlue4Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_Blue3OrBlue4Demo.release.xcconfig"; path = "Target Support Files/Pods-IOS_Blue3OrBlue4Demo/Pods-IOS_Blue3OrBlue4Demo.release.xcconfig"; sourceTree = "<group>"; };
 		2774C5710E97C13C49914C28 /* Pods-IOS_Blue3OrBlue4Demo-IOS_Blue3OrBlue4DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_Blue3OrBlue4Demo-IOS_Blue3OrBlue4DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-IOS_Blue3OrBlue4Demo-IOS_Blue3OrBlue4DemoUITests/Pods-IOS_Blue3OrBlue4Demo-IOS_Blue3OrBlue4DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3C4D600422FC16D10085D08C /* SDK1.2 Dev Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK1.2 Dev Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4D600422FC16D10085D08C /* SDK1.3 Dev Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK1.3 Dev Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4D600722FC16D10085D08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C4D600822FC16D10085D08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3C4D600A22FC16D10085D08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -80,9 +80,9 @@
 		3C8977232396329E00EF2600 /* FactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
 		3C8977262396537E00EF2600 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		3C8977282396538400EF2600 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		3C9DC4B7244EC2DA00B15F4C /* libHzlBlueTooth_V1.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHzlBlueTooth_V1.2.a; sourceTree = "<group>"; };
-		3C9DC4B8244EC2DA00B15F4C /* HZLBlueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLBlueData.h; sourceTree = "<group>"; };
-		3C9DC4B9244EC2DA00B15F4C /* Blue3OrBlue4Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blue3OrBlue4Manager.h; sourceTree = "<group>"; };
+		3CC35AC824B6B3C300466404 /* libHzlBlueTooth_V1.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHzlBlueTooth_V1.3.a; sourceTree = "<group>"; };
+		3CC35AC924B6B3C300466404 /* HZLBlueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLBlueData.h; sourceTree = "<group>"; };
+		3CC35ACA24B6B3C300466404 /* Blue3OrBlue4Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blue3OrBlue4Manager.h; sourceTree = "<group>"; };
 		5039E5AF970137469B79D680 /* Pods-IOS_Blue3OrBlue4DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_Blue3OrBlue4DemoTests.release.xcconfig"; path = "Target Support Files/Pods-IOS_Blue3OrBlue4DemoTests/Pods-IOS_Blue3OrBlue4DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		6870C83B021551F69A1520FE /* Pods-IOS_Blue3OrBlue4Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_Blue3OrBlue4Demo.debug.xcconfig"; path = "Target Support Files/Pods-IOS_Blue3OrBlue4Demo/Pods-IOS_Blue3OrBlue4Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		9C8FECB575A72D5609DD82BE /* Pods-IOS_Blue3OrBlue4Demo-IOS_Blue3OrBlue4DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_Blue3OrBlue4Demo-IOS_Blue3OrBlue4DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-IOS_Blue3OrBlue4Demo-IOS_Blue3OrBlue4DemoUITests/Pods-IOS_Blue3OrBlue4Demo-IOS_Blue3OrBlue4DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 			files = (
 				3C8977292396538400EF2600 /* CoreBluetooth.framework in Frameworks */,
 				3C8977272396537E00EF2600 /* ExternalAccessory.framework in Frameworks */,
-				3C9DC4BA244EC2DA00B15F4C /* libHzlBlueTooth_V1.2.a in Frameworks */,
 				EE083B36C3CB8665DCA5319F /* Pods_IOS_Blue3OrBlue4Demo.framework in Frameworks */,
+				3CC35ACB24B6B3C300466404 /* libHzlBlueTooth_V1.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +138,7 @@
 		3C4D600522FC16D10085D08C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C4D600422FC16D10085D08C /* SDK1.2 Dev Demo.app */,
+				3C4D600422FC16D10085D08C /* SDK1.3 Dev Demo.app */,
 				3C4D601C22FC16D20085D08C /* IOS_Blue3OrBlue4DemoTests.xctest */,
 				3C4D602722FC16D20085D08C /* IOS_Blue3OrBlue4DemoUITests.xctest */,
 			);
@@ -148,7 +148,7 @@
 		3C4D600622FC16D10085D08C /* IOS_Blue3OrBlue4Demo */ = {
 			isa = PBXGroup;
 			children = (
-				3C9DC4B6244EC2DA00B15F4C /* HzlBlueTooth_V1.2 SDK */,
+				3CC35AC724B6B3C300466404 /* HzlBlueTooth_V1.3 SDK */,
 				3C8977062396325800EF2600 /* Tool */,
 				3C89770E2396325800EF2600 /* LookLineChatViewController.h */,
 				3C8976E82396325800EF2600 /* LookLineChatViewController.m */,
@@ -200,14 +200,14 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		3C9DC4B6244EC2DA00B15F4C /* HzlBlueTooth_V1.2 SDK */ = {
+		3CC35AC724B6B3C300466404 /* HzlBlueTooth_V1.3 SDK */ = {
 			isa = PBXGroup;
 			children = (
-				3C9DC4B7244EC2DA00B15F4C /* libHzlBlueTooth_V1.2.a */,
-				3C9DC4B8244EC2DA00B15F4C /* HZLBlueData.h */,
-				3C9DC4B9244EC2DA00B15F4C /* Blue3OrBlue4Manager.h */,
+				3CC35AC824B6B3C300466404 /* libHzlBlueTooth_V1.3.a */,
+				3CC35AC924B6B3C300466404 /* HZLBlueData.h */,
+				3CC35ACA24B6B3C300466404 /* Blue3OrBlue4Manager.h */,
 			);
-			path = "HzlBlueTooth_V1.2 SDK";
+			path = "HzlBlueTooth_V1.3 SDK";
 			sourceTree = "<group>";
 		};
 		6AC30FE1F3840B3A7149B487 /* Frameworks */ = {
@@ -254,7 +254,7 @@
 			);
 			name = IOS_Blue3OrBlue4Demo;
 			productName = IOS_Blue3OrBlue4Demo;
-			productReference = 3C4D600422FC16D10085D08C /* SDK1.2 Dev Demo.app */;
+			productReference = 3C4D600422FC16D10085D08C /* SDK1.3 Dev Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3C4D601B22FC16D20085D08C /* IOS_Blue3OrBlue4DemoTests */ = {
@@ -668,10 +668,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/IOS_Blue3OrBlue4Demo/Blue3OrBlue4Manager",
 					"$(PROJECT_DIR)/IOS_Blue3OrBlue4Demo/HzlBlueTooth_V1.2\\ SDK",
+					"$(PROJECT_DIR)/IOS_Blue3OrBlue4Demo/HzlBlueTooth_V1.3\\ SDK",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.macrotellect.IOS-Blue3OrBlue4DemoDev";
-				PRODUCT_NAME = "SDK1.2 Dev Demo";
+				PRODUCT_NAME = "SDK1.3 Dev Demo";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -696,10 +697,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/IOS_Blue3OrBlue4Demo/Blue3OrBlue4Manager",
 					"$(PROJECT_DIR)/IOS_Blue3OrBlue4Demo/HzlBlueTooth_V1.2\\ SDK",
+					"$(PROJECT_DIR)/IOS_Blue3OrBlue4Demo/HzlBlueTooth_V1.3\\ SDK",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.macrotellect.IOS-Blue3OrBlue4DemoDev";
-				PRODUCT_NAME = "SDK1.2 Dev Demo";
+				PRODUCT_NAME = "SDK1.3 Dev Demo";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
