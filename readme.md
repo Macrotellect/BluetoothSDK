@@ -12,7 +12,7 @@
 ### IOS
 
 - [SDK](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/libHzlBlueTooth_V1.3.SDK.zip)
-- [demo](./IOS/IOS_Blue3OrBlue4Demo1.3/)
+- [demo](./IOS/iOSBluetoothSDK%20V1.3_Release%20Demo/)
 - [Chinese Guide](./IOS/HZLBlueTooth_V1.3%20SDKForiOS_中文.pdf)
 - [Englsih Guide](./IOS/hzlbluetooth_v1.3%20sdkforios_en.pdf)
 
