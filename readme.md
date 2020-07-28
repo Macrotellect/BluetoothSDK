@@ -9,7 +9,7 @@
 - [Englsih Guide](./Android/doc_AndroidSDK_en.md)
 
 
-### IOS
+### iOS
 
 - [SDK](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/libHzlBlueTooth_V1.3.SDK.zip)
 - [demo](./IOS/iOSBluetoothSDK%20V1.3_Release%20Demo/)
