@@ -11,10 +11,10 @@
 
 ### iOS
 
-- [SDK](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/libHzlBlueTooth_V1.3.SDK.zip)
-- [demo](./IOS/iOSBluetoothSDK%20V1.3_Release%20Demo/)
+- [SDK](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/iOSBluetoothSDK.V1.3_Release.SDK.zip)
+- [demo](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/iOSBluetoothSDK.V1.3_Release.Demo.zip) 
 - [Chinese Guide](./IOS/HZLBlueTooth_V1.3%20SDKForiOS_中文.pdf)
-- [Englsih Guide](./IOS/hzlbluetooth_v1.3%20sdkforios_en.pdf)
+- [Englsih Guide](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/iOSBluetoothSDK.V1.3_Release_en.pdf)
 
 ### MAC
 - [SDK and Demo](https://github.com/Macrotellect/BluetoothSDK/tree/master/MAC/BrainLink)
