@@ -1,6 +1,0 @@
-framework module Pods_IOS_Blue3OrBlue4DemoTests {
-  umbrella header "Pods-IOS_Blue3OrBlue4DemoTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
