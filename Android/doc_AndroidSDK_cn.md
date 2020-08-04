@@ -235,4 +235,6 @@
 **public void startScan()**<br>
 开始扫描连接<br>
 **public void disconnectDevice(String mac)**<br>
-断开蓝牙连接<br>
+断开设备地址为mac的蓝牙连接<br>
+**public void close()**<br>
+关闭蓝牙，调用该方法会断开已经连接的蓝牙，并停止扫描。<br>

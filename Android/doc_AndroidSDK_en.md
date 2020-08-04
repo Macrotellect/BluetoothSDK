@@ -216,4 +216,6 @@ Set the brainwave data receiving callback<br>
 **public void startScan()**<br>
 start scan and connect<br>
 **public void disconnectDevice(String mac)**<br>
-disconnect to Bluetooth<br>
+Disconnect the Bluetooth connection with the device address mac<br>
+**public void close()**<br>
+close Bluetooth.  disconnect the connected  and stop scanning.<br>
