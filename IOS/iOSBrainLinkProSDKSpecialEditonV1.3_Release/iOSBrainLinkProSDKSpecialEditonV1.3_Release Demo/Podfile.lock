@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - Charts (~> 3.1.1)
+  - Masonry (~> 1.0.2)
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - Masonry
+
+SPEC CHECKSUMS:
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 84e017050bd33ac93d9fb8cbaea8e81ab60ae733
+
+COCOAPODS: 1.8.4
