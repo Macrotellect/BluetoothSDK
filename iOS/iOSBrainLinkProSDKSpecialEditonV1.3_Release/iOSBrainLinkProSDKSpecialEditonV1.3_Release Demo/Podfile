@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'IOS_Blue4Demo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+   pod 'Masonry', '~> 1.0.2'
+   use_frameworks!
+   pod 'Charts', '~> 3.1.1'
+
+  # Pods for IOS_Blue4Demo
+
+  target 'IOS_Blue4DemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'IOS_Blue4DemoUITests' do
+    # Pods for testing
+  end
+
+end
