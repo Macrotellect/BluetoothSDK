@@ -9,15 +9,13 @@
 - [Englsih Guide](./Android/doc_AndroidSDK_en.md)
 
 
-### iOS
+### iOS MAC
 
-- [SDK](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/iOSBrainLinkProSDKSpecialEditonV1.3_Release.SDK.zip)
-- [demo](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/iOSBrainLinkProSDKSpecialEditonV1.3_Release.Demo.zip) 
-- [Chinese Guide](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/iOSBrainLinkProSDKSpecialEditonV1.3_Release_cn.pdf)
-- [Englsih Guide](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/iOSBrainLinkProSDKSpecialEditonV1.3_Release_en.pdf)
-
-### MAC
-- [SDK and Demo](https://github.com/Macrotellect/BluetoothSDK/tree/master/MAC/BrainLink)
+- [SDK](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/iOSMacBrainLinkProSDKSpecialEditonV1.3_Release.zip)
+- [iOS demo](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/IOS_HZLBlue4Demo.zip) 
+- [Mac demo](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/Mac_HZLBlue4.0Demo.zip) 
+- [Chinese Guide](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/iOSMacBrainLinkProSDKSpecialEditonV1.3_Release_cn.pdf)
+- [Englsih Guide](https://github.com/Macrotellect/BluetoothSDK/releases/download/1.3/iOSMacBrainLinkProSDKSpecialEditonV1.3_Release_en.pdf)
 
 ### PC
 - [SDK and Demo](https://github.com/Macrotellect/BluetoothSDK/tree/master/PC/Stream%20SDK%20for%20PC%20V1.3.1)
