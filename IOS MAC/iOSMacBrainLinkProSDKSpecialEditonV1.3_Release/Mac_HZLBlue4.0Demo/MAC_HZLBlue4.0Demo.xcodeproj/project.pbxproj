@@ -1,0 +1,1027 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0B95F52625448E0071F03D /* iOSMacBrainLinkProSDKSpecialEditonV1.3_Release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0B95F32625448E0071F03D /* iOSMacBrainLinkProSDKSpecialEditonV1.3_Release.a */; };
+		3C180CBF20E368D100184852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C180CBE20E368D100184852 /* AppDelegate.m */; };
+		3C180CC220E368D100184852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C180CC120E368D100184852 /* ViewController.m */; };
+		3C180CC420E368D200184852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C180CC320E368D200184852 /* Assets.xcassets */; };
+		3C180CC720E368D200184852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C180CC520E368D200184852 /* Main.storyboard */; };
+		3C180CCA20E368D200184852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C180CC920E368D200184852 /* main.m */; };
+		3C180CD520E368D200184852 /* TESTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C180CD420E368D200184852 /* TESTTests.m */; };
+		3C180CE020E368D200184852 /* TESTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C180CDF20E368D200184852 /* TESTUITests.m */; };
+		FC46860A20E28E0D007830B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46860920E28E0D007830B1 /* QuartzCore.framework */; };
+		FCD0569120DFA2BC00DC7EDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD0569020DFA2BC00DC7EDB /* AppDelegate.m */; };
+		FCD0569420DFA2BC00DC7EDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD0569320DFA2BC00DC7EDB /* ViewController.m */; };
+		FCD0569620DFA2BD00DC7EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD0569520DFA2BD00DC7EDB /* Assets.xcassets */; };
+		FCD0569920DFA2BD00DC7EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD0569720DFA2BD00DC7EDB /* Main.storyboard */; };
+		FCD0569C20DFA2BD00DC7EDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD0569B20DFA2BD00DC7EDB /* main.m */; };
+		FCD056A720DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD056A620DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoTests.m */; };
+		FCD056B220DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD056B120DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoUITests.m */; };
+		FCD056D220DFA42500DC7EDB /* ReciveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD056D020DFA42500DC7EDB /* ReciveViewController.m */; };
+		FCD056D320DFA42500DC7EDB /* ReciveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD056D120DFA42500DC7EDB /* ReciveViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C180CD120E368D200184852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD0568420DFA2BC00DC7EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C180CBA20E368D100184852;
+			remoteInfo = TEST;
+		};
+		3C180CDC20E368D200184852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD0568420DFA2BC00DC7EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C180CBA20E368D100184852;
+			remoteInfo = TEST;
+		};
+		FCD056A320DFA2BD00DC7EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD0568420DFA2BC00DC7EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD0568B20DFA2BC00DC7EDB;
+			remoteInfo = MAC_HZLBlue4.0Demo;
+		};
+		FCD056AE20DFA2BD00DC7EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD0568420DFA2BC00DC7EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD0568B20DFA2BC00DC7EDB;
+			remoteInfo = MAC_HZLBlue4.0Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C11FA82262429700014673D /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C0B95F22625448E0071F03D /* Blue4Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blue4Manager.h; sourceTree = "<group>"; };
+		3C0B95F32625448E0071F03D /* iOSMacBrainLinkProSDKSpecialEditonV1.3_Release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = iOSMacBrainLinkProSDKSpecialEditonV1.3_Release.a; sourceTree = "<group>"; };
+		3C0B95F42625448E0071F03D /* HZLBlueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLBlueData.h; sourceTree = "<group>"; };
+		3C180C9420E31E1400184852 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3C180CBB20E368D100184852 /* TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C180CBD20E368D100184852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C180CBE20E368D100184852 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C180CC020E368D100184852 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C180CC120E368D100184852 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C180CC320E368D200184852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C180CC620E368D200184852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C180CC820E368D200184852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C180CC920E368D200184852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C180CCB20E368D200184852 /* TEST.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TEST.entitlements; sourceTree = "<group>"; };
+		3C180CD020E368D200184852 /* TESTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C180CD420E368D200184852 /* TESTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESTTests.m; sourceTree = "<group>"; };
+		3C180CD620E368D200184852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C180CDB20E368D200184852 /* TESTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C180CDF20E368D200184852 /* TESTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESTUITests.m; sourceTree = "<group>"; };
+		3C180CE120E368D200184852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C180D7B20E374E200184852 /* MAC_HZLBlue4.0Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MAC_HZLBlue4.0Demo.entitlements; sourceTree = "<group>"; };
+		FC46860920E28E0D007830B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FCD0568C20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAC_HZLBlue4.0Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD0568F20DFA2BC00DC7EDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCD0569020DFA2BC00DC7EDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCD0569220DFA2BC00DC7EDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCD0569320DFA2BC00DC7EDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCD0569520DFA2BD00DC7EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD0569820DFA2BD00DC7EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD0569A20DFA2BD00DC7EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD0569B20DFA2BD00DC7EDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCD0569D20DFA2BD00DC7EDB /* MAC_HZLBlue4_0Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MAC_HZLBlue4_0Demo.entitlements; sourceTree = "<group>"; };
+		FCD056A220DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAC_HZLBlue4.0DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD056A620DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAC_HZLBlue4_0DemoTests.m; sourceTree = "<group>"; };
+		FCD056A820DFA2BD00DC7EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD056AD20DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAC_HZLBlue4.0DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD056B120DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAC_HZLBlue4_0DemoUITests.m; sourceTree = "<group>"; };
+		FCD056B320DFA2BD00DC7EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD056CF20DFA42500DC7EDB /* ReciveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReciveViewController.h; sourceTree = "<group>"; };
+		FCD056D020DFA42500DC7EDB /* ReciveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReciveViewController.m; sourceTree = "<group>"; };
+		FCD056D120DFA42500DC7EDB /* ReciveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReciveViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C180CB820E368D100184852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C180CCD20E368D200184852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C180CD820E368D200184852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD0568920DFA2BC00DC7EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0B95F52625448E0071F03D /* iOSMacBrainLinkProSDKSpecialEditonV1.3_Release.a in Frameworks */,
+				FC46860A20E28E0D007830B1 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD0569F20DFA2BD00DC7EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD056AA20DFA2BD00DC7EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0B95F12625448E0071F03D /* iOSMacBrainLinkProSDKSpecialEditonV1.3_Release */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B95F22625448E0071F03D /* Blue4Manager.h */,
+				3C0B95F32625448E0071F03D /* iOSMacBrainLinkProSDKSpecialEditonV1.3_Release.a */,
+				3C0B95F42625448E0071F03D /* HZLBlueData.h */,
+			);
+			path = iOSMacBrainLinkProSDKSpecialEditonV1.3_Release;
+			sourceTree = "<group>";
+		};
+		3C180CBC20E368D100184852 /* TEST */ = {
+			isa = PBXGroup;
+			children = (
+				3C180CBD20E368D100184852 /* AppDelegate.h */,
+				3C180CBE20E368D100184852 /* AppDelegate.m */,
+				3C180CC020E368D100184852 /* ViewController.h */,
+				3C180CC120E368D100184852 /* ViewController.m */,
+				3C180CC320E368D200184852 /* Assets.xcassets */,
+				3C180CC520E368D200184852 /* Main.storyboard */,
+				3C180CC820E368D200184852 /* Info.plist */,
+				3C180CC920E368D200184852 /* main.m */,
+				3C180CCB20E368D200184852 /* TEST.entitlements */,
+			);
+			path = TEST;
+			sourceTree = "<group>";
+		};
+		3C180CD320E368D200184852 /* TESTTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C180CD420E368D200184852 /* TESTTests.m */,
+				3C180CD620E368D200184852 /* Info.plist */,
+			);
+			path = TESTTests;
+			sourceTree = "<group>";
+		};
+		3C180CDE20E368D200184852 /* TESTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C180CDF20E368D200184852 /* TESTUITests.m */,
+				3C180CE120E368D200184852 /* Info.plist */,
+			);
+			path = TESTUITests;
+			sourceTree = "<group>";
+		};
+		FC46860820E28E0D007830B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C180C9420E31E1400184852 /* CoreBluetooth.framework */,
+				FC46860920E28E0D007830B1 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCD0568320DFA2BC00DC7EDB = {
+			isa = PBXGroup;
+			children = (
+				FCD0568E20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo */,
+				FCD056A520DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoTests */,
+				FCD056B020DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoUITests */,
+				3C180CBC20E368D100184852 /* TEST */,
+				3C180CD320E368D200184852 /* TESTTests */,
+				3C180CDE20E368D200184852 /* TESTUITests */,
+				FCD0568D20DFA2BC00DC7EDB /* Products */,
+				FC46860820E28E0D007830B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD0568D20DFA2BC00DC7EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD0568C20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo.app */,
+				FCD056A220DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoTests.xctest */,
+				FCD056AD20DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoUITests.xctest */,
+				3C180CBB20E368D100184852 /* TEST.app */,
+				3C180CD020E368D200184852 /* TESTTests.xctest */,
+				3C180CDB20E368D200184852 /* TESTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD0568E20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B95F12625448E0071F03D /* iOSMacBrainLinkProSDKSpecialEditonV1.3_Release */,
+				3C180D7B20E374E200184852 /* MAC_HZLBlue4.0Demo.entitlements */,
+				FCD0568F20DFA2BC00DC7EDB /* AppDelegate.h */,
+				FCD0569020DFA2BC00DC7EDB /* AppDelegate.m */,
+				FCD0569220DFA2BC00DC7EDB /* ViewController.h */,
+				FCD0569320DFA2BC00DC7EDB /* ViewController.m */,
+				FCD056CF20DFA42500DC7EDB /* ReciveViewController.h */,
+				FCD056D020DFA42500DC7EDB /* ReciveViewController.m */,
+				FCD056D120DFA42500DC7EDB /* ReciveViewController.xib */,
+				FCD0569520DFA2BD00DC7EDB /* Assets.xcassets */,
+				FCD0569720DFA2BD00DC7EDB /* Main.storyboard */,
+				FCD0569A20DFA2BD00DC7EDB /* Info.plist */,
+				FCD0569B20DFA2BD00DC7EDB /* main.m */,
+				FCD0569D20DFA2BD00DC7EDB /* MAC_HZLBlue4_0Demo.entitlements */,
+			);
+			path = MAC_HZLBlue4.0Demo;
+			sourceTree = "<group>";
+		};
+		FCD056A520DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD056A620DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoTests.m */,
+				FCD056A820DFA2BD00DC7EDB /* Info.plist */,
+			);
+			path = MAC_HZLBlue4.0DemoTests;
+			sourceTree = "<group>";
+		};
+		FCD056B020DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD056B120DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoUITests.m */,
+				FCD056B320DFA2BD00DC7EDB /* Info.plist */,
+			);
+			path = MAC_HZLBlue4.0DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C180CBA20E368D100184852 /* TEST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C180CE220E368D200184852 /* Build configuration list for PBXNativeTarget "TEST" */;
+			buildPhases = (
+				3C180CB720E368D100184852 /* Sources */,
+				3C180CB820E368D100184852 /* Frameworks */,
+				3C180CB920E368D100184852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEST;
+			productName = TEST;
+			productReference = 3C180CBB20E368D100184852 /* TEST.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C180CCF20E368D200184852 /* TESTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C180CE520E368D200184852 /* Build configuration list for PBXNativeTarget "TESTTests" */;
+			buildPhases = (
+				3C180CCC20E368D200184852 /* Sources */,
+				3C180CCD20E368D200184852 /* Frameworks */,
+				3C180CCE20E368D200184852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C180CD220E368D200184852 /* PBXTargetDependency */,
+			);
+			name = TESTTests;
+			productName = TESTTests;
+			productReference = 3C180CD020E368D200184852 /* TESTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C180CDA20E368D200184852 /* TESTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C180CE820E368D200184852 /* Build configuration list for PBXNativeTarget "TESTUITests" */;
+			buildPhases = (
+				3C180CD720E368D200184852 /* Sources */,
+				3C180CD820E368D200184852 /* Frameworks */,
+				3C180CD920E368D200184852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C180CDD20E368D200184852 /* PBXTargetDependency */,
+			);
+			name = TESTUITests;
+			productName = TESTUITests;
+			productReference = 3C180CDB20E368D200184852 /* TESTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FCD0568B20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD056B620DFA2BD00DC7EDB /* Build configuration list for PBXNativeTarget "MAC_HZLBlue4.0Demo" */;
+			buildPhases = (
+				FCD0568820DFA2BC00DC7EDB /* Sources */,
+				FCD0568920DFA2BC00DC7EDB /* Frameworks */,
+				FCD0568A20DFA2BC00DC7EDB /* Resources */,
+				3C11FA82262429700014673D /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAC_HZLBlue4.0Demo;
+			productName = MAC_HZLBlue4.0Demo;
+			productReference = FCD0568C20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD056A120DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD056B920DFA2BD00DC7EDB /* Build configuration list for PBXNativeTarget "MAC_HZLBlue4.0DemoTests" */;
+			buildPhases = (
+				FCD0569E20DFA2BD00DC7EDB /* Sources */,
+				FCD0569F20DFA2BD00DC7EDB /* Frameworks */,
+				FCD056A020DFA2BD00DC7EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD056A420DFA2BD00DC7EDB /* PBXTargetDependency */,
+			);
+			name = MAC_HZLBlue4.0DemoTests;
+			productName = MAC_HZLBlue4.0DemoTests;
+			productReference = FCD056A220DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCD056AC20DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD056BC20DFA2BD00DC7EDB /* Build configuration list for PBXNativeTarget "MAC_HZLBlue4.0DemoUITests" */;
+			buildPhases = (
+				FCD056A920DFA2BD00DC7EDB /* Sources */,
+				FCD056AA20DFA2BD00DC7EDB /* Frameworks */,
+				FCD056AB20DFA2BD00DC7EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD056AF20DFA2BD00DC7EDB /* PBXTargetDependency */,
+			);
+			name = MAC_HZLBlue4.0DemoUITests;
+			productName = MAC_HZLBlue4.0DemoUITests;
+			productReference = FCD056AD20DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD0568420DFA2BC00DC7EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = macrotellect;
+				TargetAttributes = {
+					3C180CBA20E368D100184852 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3C180CCF20E368D200184852 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3C180CBA20E368D100184852;
+					};
+					3C180CDA20E368D200184852 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3C180CBA20E368D100184852;
+					};
+					FCD0568B20DFA2BC00DC7EDB = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					FCD056A120DFA2BD00DC7EDB = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FCD0568B20DFA2BC00DC7EDB;
+					};
+					FCD056AC20DFA2BD00DC7EDB = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FCD0568B20DFA2BC00DC7EDB;
+					};
+				};
+			};
+			buildConfigurationList = FCD0568720DFA2BC00DC7EDB /* Build configuration list for PBXProject "MAC_HZLBlue4.0Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD0568320DFA2BC00DC7EDB;
+			productRefGroup = FCD0568D20DFA2BC00DC7EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD0568B20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo */,
+				FCD056A120DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoTests */,
+				FCD056AC20DFA2BD00DC7EDB /* MAC_HZLBlue4.0DemoUITests */,
+				3C180CBA20E368D100184852 /* TEST */,
+				3C180CCF20E368D200184852 /* TESTTests */,
+				3C180CDA20E368D200184852 /* TESTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C180CB920E368D100184852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C180CC420E368D200184852 /* Assets.xcassets in Resources */,
+				3C180CC720E368D200184852 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C180CCE20E368D200184852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C180CD920E368D200184852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD0568A20DFA2BC00DC7EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD056D320DFA42500DC7EDB /* ReciveViewController.xib in Resources */,
+				FCD0569620DFA2BD00DC7EDB /* Assets.xcassets in Resources */,
+				FCD0569920DFA2BD00DC7EDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD056A020DFA2BD00DC7EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD056AB20DFA2BD00DC7EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C180CB720E368D100184852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C180CC220E368D100184852 /* ViewController.m in Sources */,
+				3C180CCA20E368D200184852 /* main.m in Sources */,
+				3C180CBF20E368D100184852 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C180CCC20E368D200184852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C180CD520E368D200184852 /* TESTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C180CD720E368D200184852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C180CE020E368D200184852 /* TESTUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD0568820DFA2BC00DC7EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD056D220DFA42500DC7EDB /* ReciveViewController.m in Sources */,
+				FCD0569420DFA2BC00DC7EDB /* ViewController.m in Sources */,
+				FCD0569C20DFA2BD00DC7EDB /* main.m in Sources */,
+				FCD0569120DFA2BC00DC7EDB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD0569E20DFA2BD00DC7EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD056A720DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD056A920DFA2BD00DC7EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD056B220DFA2BD00DC7EDB /* MAC_HZLBlue4_0DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C180CD220E368D200184852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C180CBA20E368D100184852 /* TEST */;
+			targetProxy = 3C180CD120E368D200184852 /* PBXContainerItemProxy */;
+		};
+		3C180CDD20E368D200184852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C180CBA20E368D100184852 /* TEST */;
+			targetProxy = 3C180CDC20E368D200184852 /* PBXContainerItemProxy */;
+		};
+		FCD056A420DFA2BD00DC7EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD0568B20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo */;
+			targetProxy = FCD056A320DFA2BD00DC7EDB /* PBXContainerItemProxy */;
+		};
+		FCD056AF20DFA2BD00DC7EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD0568B20DFA2BC00DC7EDB /* MAC_HZLBlue4.0Demo */;
+			targetProxy = FCD056AE20DFA2BD00DC7EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C180CC520E368D200184852 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C180CC620E368D200184852 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD0569720DFA2BD00DC7EDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD0569820DFA2BD00DC7EDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C180CE320E368D200184852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TEST/TEST.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y5EFP237MC;
+				INFOPLIST_FILE = TEST/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrotellect.TEST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C180CE420E368D200184852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TEST/TEST.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y5EFP237MC;
+				INFOPLIST_FILE = TEST/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrotellect.TEST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C180CE620E368D200184852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y5EFP237MC;
+				INFOPLIST_FILE = TESTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrotellect.TESTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEST.app/Contents/MacOS/TEST";
+			};
+			name = Debug;
+		};
+		3C180CE720E368D200184852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y5EFP237MC;
+				INFOPLIST_FILE = TESTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrotellect.TESTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEST.app/Contents/MacOS/TEST";
+			};
+			name = Release;
+		};
+		3C180CE920E368D200184852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y5EFP237MC;
+				INFOPLIST_FILE = TESTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrotellect.TESTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TEST;
+			};
+			name = Debug;
+		};
+		3C180CEA20E368D200184852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y5EFP237MC;
+				INFOPLIST_FILE = TESTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrotellect.TESTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TEST;
+			};
+			name = Release;
+		};
+		FCD056B420DFA2BD00DC7EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FCD056B520DFA2BD00DC7EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FCD056B720DFA2BD00DC7EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MAC_HZLBlue4.0Demo/MAC_HZLBlue4.0Demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MAC_HZLBlue4.0Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/libHzlBlueTooth/HZLBlue4.0SDK",
+					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/Blue4Manager",
+					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/Blue4Manager1",
+					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/iOSMACBluetooth4SDK\\ V1.3_Release",
+					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/iOSMacBrainLinkProSDKSpecialEditonV1.3_Release",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macrotellect.MAC-HZLBlue4-0Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCD056B820DFA2BD00DC7EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MAC_HZLBlue4.0Demo/MAC_HZLBlue4.0Demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MAC_HZLBlue4.0Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/libHzlBlueTooth/HZLBlue4.0SDK",
+					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/Blue4Manager",
+					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/Blue4Manager1",
+					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/iOSMACBluetooth4SDK\\ V1.3_Release",
+					"$(PROJECT_DIR)/MAC_HZLBlue4.0Demo/iOSMacBrainLinkProSDKSpecialEditonV1.3_Release",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macrotellect.MAC-HZLBlue4-0Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCD056BA20DFA2BD00DC7EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MAC_HZLBlue4.0DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macrotellect.MAC-HZLBlue4-0DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAC_HZLBlue4.0Demo.app/Contents/MacOS/MAC_HZLBlue4.0Demo";
+			};
+			name = Debug;
+		};
+		FCD056BB20DFA2BD00DC7EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MAC_HZLBlue4.0DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macrotellect.MAC-HZLBlue4-0DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAC_HZLBlue4.0Demo.app/Contents/MacOS/MAC_HZLBlue4.0Demo";
+			};
+			name = Release;
+		};
+		FCD056BD20DFA2BD00DC7EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MAC_HZLBlue4.0DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macrotellect.MAC-HZLBlue4-0DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MAC_HZLBlue4.0Demo;
+			};
+			name = Debug;
+		};
+		FCD056BE20DFA2BD00DC7EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MAC_HZLBlue4.0DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macrotellect.MAC-HZLBlue4-0DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MAC_HZLBlue4.0Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C180CE220E368D200184852 /* Build configuration list for PBXNativeTarget "TEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C180CE320E368D200184852 /* Debug */,
+				3C180CE420E368D200184852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C180CE520E368D200184852 /* Build configuration list for PBXNativeTarget "TESTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C180CE620E368D200184852 /* Debug */,
+				3C180CE720E368D200184852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C180CE820E368D200184852 /* Build configuration list for PBXNativeTarget "TESTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C180CE920E368D200184852 /* Debug */,
+				3C180CEA20E368D200184852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD0568720DFA2BC00DC7EDB /* Build configuration list for PBXProject "MAC_HZLBlue4.0Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD056B420DFA2BD00DC7EDB /* Debug */,
+				FCD056B520DFA2BD00DC7EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD056B620DFA2BD00DC7EDB /* Build configuration list for PBXNativeTarget "MAC_HZLBlue4.0Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD056B720DFA2BD00DC7EDB /* Debug */,
+				FCD056B820DFA2BD00DC7EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD056B920DFA2BD00DC7EDB /* Build configuration list for PBXNativeTarget "MAC_HZLBlue4.0DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD056BA20DFA2BD00DC7EDB /* Debug */,
+				FCD056BB20DFA2BD00DC7EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD056BC20DFA2BD00DC7EDB /* Build configuration list for PBXNativeTarget "MAC_HZLBlue4.0DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD056BD20DFA2BD00DC7EDB /* Debug */,
+				FCD056BE20DFA2BD00DC7EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD0568420DFA2BC00DC7EDB /* Project object */;
+}
